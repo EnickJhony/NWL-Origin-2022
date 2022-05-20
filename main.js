@@ -24,4 +24,8 @@ ScrollReveal({
 #home img, 
 #home .stats, 
 #services,
-#services .card`);
+#services header,
+#services .card,
+#about,
+#about header,
+#abour .content`);
