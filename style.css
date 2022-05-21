@@ -52,7 +52,7 @@ ul {
   list-style: none;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
@@ -60,7 +60,7 @@ section {
   padding-block: 10rem;
 }
 
-section header h1{
+section header h1 {
   font-size: 3.4rem;
   color: var(--headline);
   line-height: 130%;
@@ -68,14 +68,14 @@ section header h1{
   margin-bottom: 2.4rem;
 }
 
-section header h2{
+section header h2 {
   font-size: 3rem;
   line-height: 3.9rem;
-  
+
   color: var(--headline);
 }
 
-section header h4{
+section header h4 {
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 150%;
@@ -87,11 +87,11 @@ section header h4{
   margin-bottom: 1.6rem;
 }
 
-section .content p{
+section .content p {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 150%;
- 
+
   color: var(--paragraph);
 }
 
@@ -105,7 +105,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100vw;
-  
+
   z-index: 100;
 }
 
@@ -324,7 +324,7 @@ body.menu-expanded button path {
 
 /*=== SERVICES =================================*/
 
-#services header h2{
+#services header h2 {
   margin-bottom: 6rem;
 }
 
@@ -354,7 +354,7 @@ body.menu-expanded button path {
   background-color: var(--brand-beige);
 }
 
-#about header h2{
+#about header h2 {
   margin-bottom: 2.4rem;
 }
 
@@ -363,5 +363,56 @@ body.menu-expanded button path {
   margin-bottom: 6rem;
 }
 
+/*=== CONTACT =================================*/
 
-/* lembrar de remover o as configs de h1 e h4 das sections */
+#contact {
+  text-align: left;
+  background-color: white;
+}
+
+#contact .endereco div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+#contact .contact {
+  margin-block: 3.2rem;
+  gap: 1.6rem;
+}
+
+#contact .endereco {
+  margin-bottom: 1.6rem;
+}
+
+#contact .endereco,
+#contact .mail {
+  display: flex;
+  gap: 0.8rem;
+}
+
+#contact button {
+  background: var(--primary-color);
+
+  border: none;
+  border-radius: 4rem;
+
+  margin-bottom: 6rem;
+
+  height: 6.2rem;
+  width: 26.3rem;
+
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  /* margin-right: auto;
+  margin-left: auto; */
+}
