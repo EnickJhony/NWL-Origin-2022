@@ -370,6 +370,14 @@ body.menu-expanded button path {
   background-color: white;
 }
 
+#contact h2 {
+  /* position: absolute; */
+  width: 28.7rem;
+  height: 7.8rem;
+  left: 2.4rem;
+  top: 10rem;
+}
+
 #contact .endereco div {
   display: flex;
   align-items: center;
@@ -412,7 +420,37 @@ body.menu-expanded button path {
   align-items: center;
   justify-content: center;
   gap: 1.6rem;
+}
 
-  /* margin-right: auto;
-  margin-left: auto; */
+/*=== FOOTER =================================*/
+footer {
+  background-color: var(--primary-color);
+  padding: 6rem;
+  text-align: left;
+}
+
+footer .content {
+  padding-top: 2.5rem;
+  padding-bottom: 3.1rem;
+}
+
+footer p {
+  color: var(--brand-beige);
+  display: flex;
+  gap: 1.6rem;
+}
+
+footer .copy {
+  margin-bottom: 1.2rem;
+}
+
+body footer .socialmidias svg path {
+  stroke: var(--brand-beige);
+}
+
+footer .socialmidias {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 3.2rem;
 }

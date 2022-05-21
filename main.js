@@ -6,7 +6,6 @@ function onScroll() {
   }
 }
 
- 
 function openMenu() {
   document.body.classList.add('menu-expanded')
 }
@@ -18,7 +17,7 @@ function closeMenu() {
 ScrollReveal({
   origin: 'top',
   distance: '30px',
-  duration:700,
+  duration: 700
 }).reveal(`
 #home, 
 #home img, 
@@ -28,4 +27,8 @@ ScrollReveal({
 #services .card,
 #about,
 #about header,
-#abour .content`);
+#abour .content,
+#contact,
+#contact header,
+#contact content,
+#footer`)
