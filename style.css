@@ -301,9 +301,8 @@ body.menu-expanded button path {
 /*=== HOME =================================*/
 
 #home {
-  padding-top: calc(4.1rem + var(--nav-height));
-  padding-bottom: 0;
   padding-block: 0;
+  padding-top: calc(4.1rem + var(--nav-height));
 }
 
 #home::before {
